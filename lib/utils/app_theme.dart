@@ -21,7 +21,7 @@ class AppTheme {
           statusBarIconBrightness: Brightness.light,
         ),
         elevation: 0,
-        centerTitle: true,
+        // centerTitle: true,
         backgroundColor: Color(0xff181818),
         iconTheme: IconThemeData(color: Color(0xffCCCCCC)),
         titleTextStyle: TextStyle(
@@ -52,7 +52,6 @@ class AppTheme {
       primaryColor: Color(0xff4699FB),
       scaffoldBackgroundColor: Color(0xffF3F4F6),
       useMaterial3: true,
-      // Android 使用 Material3
       chipTheme: const ChipThemeData(
         padding: EdgeInsets.symmetric(horizontal: 10),
       ),
@@ -76,7 +75,7 @@ class AppTheme {
           statusBarIconBrightness: Brightness.dark,
         ),
         elevation: 0,
-        centerTitle: true,
+        // centerTitle: true,
         backgroundColor: Colors.white,
         titleTextStyle: TextStyle(
           fontSize: 16,
